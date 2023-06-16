@@ -50,11 +50,11 @@ class _MainPageState extends State<MainPage> {
       items: [
         BottomNavigationBarItem(
           icon: Text('TypeAhead', style: style),
-          title: Text('Network'),
+          label: 'Network',
         ),
         BottomNavigationBarItem(
           icon: Text('TypeAhead', style: style),
-          title: Text('Local'),
+          label:'Local',
         ),
       ],
       onTap: (int index) => setState(() => this.index = index),
